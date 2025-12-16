@@ -17,7 +17,7 @@ public class NiceGoodsManagementSystem implements GoodsManagementSystem{
 
     private class NiceGoodsIterator implements Iterator {
 
-        int index = 0;
+        private int index = 0;
 
         @Override
         public boolean hasNext() {
